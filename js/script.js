@@ -51,7 +51,9 @@ function createWell(bookmark) {
     var webwell = document.getElementById(bookmark.name); 
     webwell.innerHTML = h4 + link + btndelete;
     drawn.push(bookmark);
+    
 }
+
 
 function deleteWell(bookmark) {
     drawn.splice(drawn.indexOf(bookmark), 1);
@@ -129,7 +131,9 @@ function showUrlError(msg) {
 }
 
 function updateDeleteButtons() {
+    
     btnsdelete = document.querySelectorAll(".btndelete");
+    
 }
 
 function addDeleteEvent() {
@@ -159,3 +163,13 @@ document.addEventListener("keypress", function(e) {
     if (e.keyCode == 13)
         submit();
 })
+class x{
+
+}
+let r=new x()
+let vc = []
+vc.push(r)
+console.log(vc[0]==r)
+
+let rvv =[];
+rvv=12;
